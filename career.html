@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dunkin' Indonesia</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="dunkin.html" class="navbar-logo"><span>Dunkin'</span></a>
+
+      <div class="navbar-nav">
+        <a href="menu.html">MENU</a>
+        <a href="store.html">STORES</a>
+        <a href="#" class="active">CAREERS</a>
+        <a href="ourstory.html">OUR STORY</a>
+      </div>
+
+      <div class="search">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="shopping-button"
+          ><i data-feather="shopping-cart"></i><span>BASKET</span></a
+        >
+      </div>
+
+      <div class="profile">
+        <a href="#" id="profil-button"><i data-feather="user"></i></a>
+      </div>
+
+      <div>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- search form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here" />
+        <label for="search-box" id="search-label"
+          ><i data-feather="search"></i
+        ></label>
+      </div>
+
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- scrol reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- my javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

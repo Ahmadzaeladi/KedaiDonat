@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dunkin' Indonesia</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="dunkin.html" class="navbar-logo"><span>Dunkin'</span></a>
+
+      <div class="navbar-nav">
+        <a href="menu.html">MENU</a>
+        <a href="#about" class="active">STORES</a>
+        <a href="career.html">CAREERS</a>
+        <a href="ourstory.html">OUR STORY</a>
+      </div>
+
+      <div class="search">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="shopping-button"
+          ><i data-feather="shopping-cart"></i><span>BASKET</span></a
+        >
+      </div>
+
+      <div class="profile">
+        <a href="#" id="profil-button"><i data-feather="user"></i></a>
+      </div>
+
+      <div>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- search form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here" />
+        <label for="search-box" id="search-label"
+          ><i data-feather="search"></i
+        ></label>
+      </div>
+
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- form login -->
+    <div class="login">
+      <form action="login.php" method="POST" class="login-container">
+        <h2 class="login-content">Login</h2>
+        <div class="login-input">
+          <input type="text" placeholder="Email" id="username" name="email" />
+        </div>
+        <div class="login-input">
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+          />
+        </div>
+        <div class="lupa">
+          <a href="#" class="lupa-pass">Forgot Password</a>
+          <p class="garis">|</p>
+          <a href="/registrasi.html" class="sign-up">Sign Up</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+
+    <!-- store section -->
+    <section class="store">
+      <h2 class="title">Tangerang</h2>
+      <div class="store-location">
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/A3pydFv1QadPDc1f7"
+            ><img src="store/metro.png" alt=""
+          /></a>
+          <h3>DD METRO PERMATA</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/A3pydFv1QadPDc1f7"
+            >Jl. Raden Saleh <br />
+            Karang Mulya</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/Ks5TUBRRfpuobemv8"
+            ><img src="store/km13.png" alt=""
+          /></a>
+          <h3>DD REST AREA KM 13</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/Ks5TUBRRfpuobemv8"
+            >Rest Area Km 13 <br />
+            Kunciran Jaya</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/xWS6APAm3JEfYXbFA"
+            ><img src="store/pbc.png" alt=""
+          /></a>
+          <h3>DD PURI BETA CILEDUG</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/xWS6APAm3JEfYXbFA"
+            >Jl. Hos Cokroaminoto <br />
+            Larangan Utara</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/wn2fkxeWzCahYv2y9"
+            ><img src="store/graha.png" alt=""
+          /></a>
+          <h3>DD GRAHA RAYA KLUB</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/wn2fkxeWzCahYv2y9"
+            >Paku jaya <br />
+            Serpong Utara</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/QCEjvSQaDxdh4QSz9"
+            ><img src="store/alamsutra.png" alt=""
+          /></a>
+          <h3>DD ALAM SUTERA</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/QCEjvSQaDxdh4QSz9"
+            >Jl. Jalur Sutera B-C<br />
+            Serpong Utara</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/V1BZgLZtUWxxM3fs5"
+            ><img src="store/mkm.png" alt=""
+          /></a>
+          <h3>DD MAHKOTA MAS</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/V1BZgLZtUWxxM3fs5"
+            >Jl. MH. Thamrin <br />
+            Cikokol</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/6TaCQU6ovCzgt8Wq8"
+            ><img src="store/tgc.png" alt=""
+          /></a>
+          <h3>DD TANGERANG CITY</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/6TaCQU6ovCzgt8Wq8"
+            >Jl. Jenderal Sudirman <br />
+            Cikokol</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/p2BsxD8wxpT7BgyN6"
+            ><img src="store/gsr.png" alt=""
+          /></a>
+          <h3>DD GADING SERPONG</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/p2BsxD8wxpT7BgyN6"
+            >Jl. boulevard Raya <br />
+            Gading Serpong</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/YqWvJh4ubTAtyhjt9"
+            ><img src="store/bsd.png" alt=""
+          /></a>
+          <h3>DD BSD</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/YqWvJh4ubTAtyhjt9"
+            >Jl. Pahlawan Seribu<br />
+            Serpong</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/C5EuC7CuV4qYQriQ9"
+            ><img src="store/edt.png" alt=""
+          /></a>
+          <h3>DD EDUTOWN BSD</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/C5EuC7CuV4qYQriQ9"
+            >Pagedangan <br />
+            Tangerang</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/vA5pVzkfBNony6kE9"
+            ><img src="store/spp.png" alt=""
+          /></a>
+          <h3>DD PAMULANG</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/vA5pVzkfBNony6kE9"
+            >Jl. Siliwangi <br />
+            Pamulang</a
+          >
+        </div>
+        <div class="store-card">
+          <a href="https://maps.app.goo.gl/6ZAcoCViwVrDxDKx8"
+            ><img src="store/pakon.png" alt=""
+          /></a>
+          <h3>DD HOTEL PAKON</h3>
+          <a class="alamat" href="https://maps.app.goo.gl/6ZAcoCViwVrDxDKx8"
+            >Daan Mogot, Sukarasa <br />
+            Tangerang</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- scrol reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- my javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

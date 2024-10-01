@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dunkin' Indonesia</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="dunkin.html" class="navbar-logo"><span>Dunkin'</span></a>
+
+      <div class="navbar-nav">
+        <a href="menu.html">MENU</a>
+        <a href="store.html">STORES</a>
+        <a href="career.html">CAREERS</a>
+        <a href="ourstory.html" class="active">OUR STORY</a>
+      </div>
+
+      <div class="search">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="shopping-button"
+          ><i data-feather="shopping-cart"></i><span>BASKET</span></a
+        >
+      </div>
+
+      <div class="profile">
+        <a href="#" id="profil-button"><i data-feather="user"></i></a>
+      </div>
+
+      <div>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- search form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here" />
+        <label for="search-box" id="search-label"
+          ><i data-feather="search"></i
+        ></label>
+      </div>
+
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="product.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- form login -->
+    <div class="login">
+      <form action="login.php" method="POST" class="login-container">
+        <h2 class="login-content">Login</h2>
+        <div class="login-input">
+          <input type="text" placeholder="Email" id="username" name="email" />
+        </div>
+        <div class="login-input">
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            name="password"
+          />
+        </div>
+        <div class="lupa">
+          <a href="#" class="lupa-pass">Forgot Password</a>
+          <p class="garis">|</p>
+          <a href="registrasi.html" class="sign-up">Sign Up</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+
+    <!-- section -->
+    <section class="story">
+      <div class="story-dd">
+        <div class="our-story">
+          <img src="story/about_us_01.webp" alt="" />
+        </div>
+        <div class="story-content">
+          <h3>Sejarah Dunkin Donuts</h3>
+          <p class="text-content">
+            Pada tahun 1950, William Rosenberg memiliki pengalaman spiritual.
+            Setelah menciptakan berbagai donat lezat untuk masyarakat Quincy,
+            Massachusetts, ia menyadari bahwa semua orang menyukai untuk
+            mencelupkannya ke dalam kopi mereka. Kombinasi lezat antara donat
+            dan kopi menjadi pengalaman yang patut dinikmati, dan orang terus
+            datang kembali untuk lebih. Terinspirasi oleh fenomena ini,
+            Rosenberg menjadikannya misi untuk menawarkan kopi berkualitas
+            terbaik yang bisa ia temukan. Hal ini mengangkat bisnisnya ke
+            tingkat yang baru dan DUNKIN’ Donuts lahir. Komitmen kami untuk
+            menyajikan kopi terbaik lebih kuat dari sebelumnya. Setiap campuran
+            dipilih dengan hati-hati untuk memastikan rasa yang paling kaya dan
+            halus. Baik itu espresso yang kuat, cappuccino yang berbusa kaya,
+            atau latte yang memanjakan diri, DUNKIN’ berkomitmen untuk
+            menyajikan kopi berkualitas tinggi yang penuh dengan rasa.
+          </p>
+        </div>
+      </div>
+      <div class="dunkin-indo">
+        <div class="indo-content">
+          <h3>Sejarah dunkin Indonesia</h3>
+          <p>
+            Sejarah Dunkin' Donuts di Indonesia dimulai pada tahun 1985 ketika
+            PT. Bramsky Perkasa memperoleh lisensi untuk membuka gerai pertama
+            Dunkin' Donuts di Indonesia. Sejak saat itu, Dunkin' Donuts telah
+            menjadi salah satu merek donat yang paling dikenal dan populer di
+            Indonesia. Perusahaan waralaba tersebut telah mengembangkan jaringan
+            gerai di seluruh penjuru Indonesia, termasuk di kota-kota besar
+            seperti Jakarta, Surabaya, Bandung, dan banyak lagi. Dengan lokasi
+            yang strategis dan produk-produk yang berkualitas, Dunkin' Donuts
+            berhasil menarik banyak pelanggan setia dari berbagai kalangan.
+            Selama bertahun-tahun, Dunkin' Donuts terus berinovasi dengan
+            menyesuaikan menu mereka dengan selera dan preferensi konsumen
+            Indonesia. Selain donat, Dunkin' Donuts juga menawarkan berbagai
+            macam produk kopi, termasuk kopi panas dan dingin, serta berbagai
+            camilan seperti sandwich, pastry, dan minuman lainnya. Kehadiran
+            Dunkin' Donuts di Indonesia telah menjadi bagian penting dari
+            industri makanan cepat saji di negara ini. Mereka tidak hanya
+            dikenal karena produk berkualitas tinggi dan rasa yang lezat, tetapi
+            juga karena pelayanan yang ramah dan konsisten. Dunkin' Donuts telah
+            menjadi pilihan favorit bagi banyak orang yang mencari camilan atau
+            minuman yang enak, praktis, dan terjangkau di Indonesia.
+          </p>
+        </div>
+        <img src="story/ddhw.jpg" alt="" />
+      </div>
+      <div class="content2">
+        <h3>
+          "WE ARE PROUD TO SERVE OVER 4.5 MILLION GUESTS A DAY IN 38 COUNTRIES"
+        </h3>
+        <p class="text">
+          Pop into one of our stores and taste for yourself why we are now one
+          of the most loved coffee and bakery brands in the world!.
+        </p>
+        <div class="img-card">
+          <img src="story/about_us_02-1.webp" alt="" />
+          <img src="story/foto2.webp" alt="" />
+          <img src="story/foto3.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2024 Copyright by Ahmad Zaeladi. All rights reserved.</p>
+      </div>
+      <div class="footer-icon">
+        <a href=""><i data-feather="instagram"></i></a>
+        <a href=""><i data-feather="facebook"></i></a>
+        <a href=""><img src="icon/tiktok.svg" alt="" /></a>
+      </div>
+    </footer>
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- scrol reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- my javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
